@@ -25,7 +25,7 @@ SET row_security = off;
 
 --
 -- TOC entry 1 (class 3079 OID 12427)
--- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner:
 --
 
 CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
@@ -34,7 +34,7 @@ CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 --
 -- TOC entry 2201 (class 0 OID 0)
 -- Dependencies: 1
--- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner:
 --
 
 COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
@@ -730,7 +730,7 @@ COPY card_set (id, active, base_deck, description, name, weight) FROM stdin;
 560	t	f	Weed Pack	Weed Pack	30
 566	t	f	Retail Product Pack	Retail Product Pack	30
 568	t	f	Tabletop Pack	Tabletop Pack	100
-572	t	f	World Wide Web Pack	World Wide Web Pack	30
+572	t	f	RAMS PACK	30
 2131	t	f	Box Expansion Pack	Box Expansion Pack	30
 2152	t	f	Hidden Compartment Pack	Hidden Compartment Pack	30
 2374	t	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
@@ -7579,4 +7579,3 @@ ALTER TABLE ONLY card_set_white_card
 --
 -- PostgreSQL database dump complete
 --
-
