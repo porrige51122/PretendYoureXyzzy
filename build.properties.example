@@ -18,7 +18,7 @@ pyx.admin_addrs=127.0.0.1,0:0:0:0:0:0:0:1
 pyx.banned_nicks=xyzzy
 
 # The name of a class that implements net.socialgamer.cah.util.ChatFilter.ShadowBannedStringProvider
-# which will then be called to get the shadowbanned strings.
+# Which will then be called to get the shadowbanned strings.
 # Ideally we'd just have the list of strings here, but providing unicode characters directly gets
 # mangled during the build process, and for some reason unicode escapes were not being loaded
 # properly at runtime.
