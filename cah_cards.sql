@@ -730,7 +730,7 @@ COPY card_set (id, active, base_deck, description, name, weight) FROM stdin;
 560	t	f	Weed Pack	Weed Pack	30
 566	t	f	Retail Product Pack	Retail Product Pack	30
 568	t	f	Tabletop Pack	Tabletop Pack	100
-572	t	f	RAMS PACK	30
+572	t	f	RAMS Pack	RAMS Pack	30
 2131	t	f	Box Expansion Pack	Box Expansion Pack	30
 2152	t	f	Hidden Compartment Pack	Hidden Compartment Pack	30
 2374	t	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
