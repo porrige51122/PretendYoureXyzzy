@@ -1,5 +1,5 @@
 -- Pretend You're Xyzzy cards by Andy Janata is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
--- Based on a work at www.cardsagainsthumanity.com.
+-- Based on a work at RAMS.cardsagainsthumanity.com.
 -- For more information, see http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 -- This file contains the Black Cards and White Cards for Cards Against Humanity, as a script for importing into PostgreSQL. There should be a user named pyx.
@@ -673,15 +673,15 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 567	0	1	Hey, you guys want to try this awesome new game? It's called ____.	TBLTP
 569	0	1	For my turn, I will spend four gold and allocate all three workers to ____.	TBLTP
 570	0	1	Backers who supported Tabletop at the $25,000 level were astonished to receive ____ from Wil Wheaton himself.	TBLTP
-571	0	1	I'm just gonna stay in tonight. You know, Netflix and ____.	WWW
-573	0	1	What did I nickname my genitals?	WWW
-574	0	1	This app is basically Tinder, but for ____.	WWW
-575	0	1	You guys, you can buy ____ on the dark web.	WWW
-576	0	1	Don't worry, Penny! Go Go Gadget ____!	WWW
-577	0	1	TRIGGER WARNING: ____.	WWW
-578	0	2	I need you like ____ needs ____.	WWW
-579	0	2	Such ____. Very ____. Wow.	WWW
-580	0	1	Nothing says "I love you" like ____.	WWW
+571	0	1	I'm just gonna stay in tonight. You know, Netflix and ____.	RAMS
+573	0	1	What did I nickname my genitals?	RAMS
+574	0	1	This app is basically Tinder, but for ____.	RAMS
+575	0	1	You guys, you can buy ____ on the dark web.	RAMS
+576	0	1	Don't worry, Penny! Go Go Gadget ____!	RAMS
+577	0	1	TRIGGER WARNING: ____.	RAMS
+578	0	2	I need you like ____ needs ____.	RAMS
+579	0	2	Such ____. Very ____. Wow.	RAMS
+580	0	1	Nothing says "I love you" like ____.	RAMS
 \.
 
 
@@ -7460,27 +7460,27 @@ COPY white_cards (id, text, watermark) FROM stdin;
 2599	Eating all the skin off a rotisserie chicken.	WEED
 2600	Smoking a joint with former President Barack Obama.	WEED
 2601	Getting high and watching <i>Planet Earth.</i>	WEED
-2602	A fun, sexy time at the nude beach.	WWW
-2603	A complete inability to understand anyone else's perspective.	WWW
-2604	Three years of semen in a shoebox.	WWW
-2605	A respectful discussion of race and gender on the Internet.	WWW
-2606	Taking a shit while running at full speed.	WWW
-2607	A night of Taco Bell and anal sex.	WWW
-2608	Googling.	WWW
-2609	Smash Mouth.	WWW
-2610	A man from Craigslist.	WWW
-2611	My browser history.	WWW
-2612	Getting teabagged by a fifth grader in <i>Call of Duty.</i>	WWW
-2613	My privileged white penis.	WWW
-2614	Internet porn analysis paralysis.	WWW
-2615	YouTube comments.	WWW
-2616	Pretending to be black.	WWW
-2617	That thing on the Internet everyone's talking about.	WWW
-2618	Goats screaming like people.	WWW
-2619	Destroying Dick Cheney's last horcrux.	WWW
-2620	Game of Thrones spoilers.	WWW
-2621	Cat massage.	WWW
-2622	Matching with Mom on Tinder.	WWW
+2602	A fun, sexy time at the nude beach.	RAMS
+2603	A complete inability to understand anyone else's perspective.	RAMS
+2604	Three years of semen in a shoebox.	RAMS
+2605	A respectful discussion of race and gender on the Internet.	RAMS
+2606	Taking a shit while running at full speed.	RAMS
+2607	A night of Taco Bell and anal sex.	RAMS
+2608	Googling.	RAMS
+2609	Smash Mouth.	RAMS
+2610	A man from Craigslist.	RAMS
+2611	My browser history.	RAMS
+2612	Getting teabagged by a fifth grader in <i>Call of Duty.</i>	RAMS
+2613	My privileged white penis.	RAMS
+2614	Internet porn analysis paralysis.	RAMS
+2615	YouTube comments.	RAMS
+2616	Pretending to be black.	RAMS
+2617	That thing on the Internet everyone's talking about.	RAMS
+2618	Goats screaming like people.	RAMS
+2619	Destroying Dick Cheney's last horcrux.	RAMS
+2620	Game of Thrones spoilers.	RAMS
+2621	Cat massage.	RAMS
+2622	Matching with Mom on Tinder.	RAMS
 \.
 
 
