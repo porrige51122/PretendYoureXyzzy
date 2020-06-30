@@ -83,16 +83,7 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
 <body id="gamebody">
 
 <div id="welcome">
-  <h1 tabindex="0">
-    CAH <dfn
-    title="Royal Holloway Rock and Metal Society.">
-    RAMS</dfn> Edition!
-  </h1>
-  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone.</h3>
-  <p>
-    If this is your first time playing, you may wish to read <a href="index.jsp">the changelog and
-    list of known issues</a>.
-  </p>
+  <h1 tabindex="0"> Cards Against Humanity <dfn title="Royal Holloway Rock and Metal Society.">RAMS</dfn> Edition! </h1>
 
   <h2>Welcome to the Rock and Metal Society version of Cards Agains Humanity</h2>
   <div id="nickbox">
@@ -119,6 +110,7 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
     information, including information about included libraries, see the
     <a href="license.html">full license information</a>.
   </p>
+  <img src="./images/ramslogo.png">
 </div>
 
 <div id="canvas" class="hide">
